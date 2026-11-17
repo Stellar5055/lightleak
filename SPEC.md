@@ -10,11 +10,13 @@
 ### Mockup status (17 Nov 2026)
 
 S0–S10 are built and deployed. Live mockup:
-**https://stellar5055.github.io/lightleak/**. The mockup is interactive: home,
-import / create-new, prism / ball / blank scenes, specimen rail, inspector
-sliders, source bar, help, ray readout, export dialog, share toast and mobile
-layout. The scene is SVG and the solver is a UI timer. Simulation has not
-started. **S11 is next.** See `MOCKUP.md` and §18 for the full stage list.
+**https://stellar5055.github.io/lightleak/**. S11 is built locally; it is a
+pure geometry library and does not change the UI. The mockup is interactive:
+home, import / create-new, prism / ball / blank scenes, specimen rail,
+inspector sliders, source bar, help, ray readout, export dialog, share toast
+and mobile layout. The scene is SVG and the solver is a UI timer. Simulation
+has started at the primitive layer only. **S12 is next.** See `MOCKUP.md` and
+§18 for the full stage list.
 
 This supersedes v1.0. The old ivory/brass instrument UI is gone. The homepage
 hero is now based on the 21st.dev hero structure: grid, radial accent, eyebrow,
@@ -514,8 +516,8 @@ build.
 | S8 | SVG scene | 1 h | done |
 | S9 | Mock interactions | 1.5 h | done |
 | S10 | Mockup freeze | 0.5 h | done |
-| S11 | Optics A: vectors and primitives | 1.25 h | **next** |
-| S12 | Optics B: Snell, Fresnel, TIR | 1.25 h | planned |
+| S11 | Optics A: vectors and primitives | 1.25 h | **done · local** |
+| S12 | Optics B: Snell, Fresnel, TIR | 1.25 h | **next** |
 | S13 | Optics C: spectrum and prism path | 1.25 h | planned |
 | S14 | Three.js stage | 2 h | planned |
 | S15 | Real ray overlay | 1.75 h | planned |
@@ -689,7 +691,7 @@ prism (5 planes), interval clipping, normals.
 - No Three.js, React or DOM imports in `src/optics/`.
 - `npm test` passes.
 
-**Status:** next.
+**Status:** done locally — 18 tests, `npm run build` green. No UI change.
 
 ### S12 — Optics B: Snell, Fresnel, TIR · 1.25 h
 

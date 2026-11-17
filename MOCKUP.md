@@ -57,5 +57,5 @@ Open the local URL. Routes are hash-based:
 
 ## Next
 
-S11–S13 in `SPEC.md`: the optics core. Nothing is simulated until those stages
-land.
+S12–S13 in `SPEC.md`: Snell/Fresnel/TIR, then the spectrum and prism path.
+S11 (vectors and primitives) is done locally; it does not change this UI.

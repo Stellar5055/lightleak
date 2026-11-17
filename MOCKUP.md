@@ -57,5 +57,5 @@ Open the local URL. Routes are hash-based:
 
 ## Next
 
-S12–S13 in `SPEC.md`: Snell/Fresnel/TIR, then the spectrum and prism path.
-S11 (vectors and primitives) is done locally; it does not change this UI.
+S13 in `SPEC.md`: the spectrum and prism path. S11 (primitives) and S12
+(Snell/Fresnel/TIR) are built; they do not change this UI.

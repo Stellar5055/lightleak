@@ -2,6 +2,8 @@
 
 This is the clickable interface mockup for Lightleak. **No light is simulated.**
 
+Live mockup: **https://stellar5055.github.io/lightleak/**
+
 The scene is an SVG illustration. There is no Three.js, no ray tracer and no
 photon worker in this build. The numbers are mock values. Every button, page,
 slider and overlay works so the UI can be reviewed before the simulation is

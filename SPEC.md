@@ -9,12 +9,12 @@
 
 ### Mockup status (17 Nov 2026)
 
-S0–S10 are built in the working tree (S4's live Pages URL is still pending). The
-mockup is interactive: home, import / create-new, prism / ball / blank scenes,
-specimen rail, inspector sliders, source bar, help, ray readout, export dialog,
-share toast and mobile layout. The scene is SVG and the solver is a UI timer.
-Simulation has not started. **S11 is next.** See `MOCKUP.md` and §18 for the
-full stage list.
+S0–S10 are built and deployed. Live mockup:
+**https://stellar5055.github.io/lightleak/**. The mockup is interactive: home,
+import / create-new, prism / ball / blank scenes, specimen rail, inspector
+sliders, source bar, help, ray readout, export dialog, share toast and mobile
+layout. The scene is SVG and the solver is a UI timer. Simulation has not
+started. **S11 is next.** See `MOCKUP.md` and §18 for the full stage list.
 
 This supersedes v1.0. The old ivory/brass instrument UI is gone. The homepage
 hero is now based on the 21st.dev hero structure: grid, radial accent, eyebrow,
@@ -507,7 +507,7 @@ build.
 | S1 | Project foundation | 1 h | done |
 | S2 | Design system | 1 h | done |
 | S3 | Brand plate and icons | 0.75 h | done |
-| S4 | Routing and Pages | 0.75 h | done · live URL pending |
+| S4 | Routing and Pages | 0.75 h | done · [live](https://stellar5055.github.io/lightleak/) |
 | S5 | Homepage hero | 1.5 h | done |
 | S6 | Start options and import | 1 h | done |
 | S7 | Scene shell | 1 h | done |
@@ -592,7 +592,8 @@ GitHub Actions workflow, `base: './'`, `public/.nojekyll`.
 - A production build uses relative asset paths.
 - The workflow deploys `dist`; the live URL loads logged out.
 
-**Status:** code done; live URL pending.
+**Status:** done. Live:
+**https://stellar5055.github.io/lightleak/**
 
 ### S5 — Homepage hero · 1.5 h
 
@@ -882,7 +883,7 @@ homepage, the scene chamber, or the deploy.
 - [x] No dead links, placeholder copy, or console errors.
 - [x] 1440×900, 1280×800 and 390×844 hold.
 - [x] `npm run build` passes.
-- [ ] GitHub Pages URL loads logged out. (pending deploy)
+- [x] GitHub Pages URL loads logged out: https://stellar5055.github.io/lightleak/
 
 ### Final app
 
